@@ -37,11 +37,12 @@
 }
 
 .form p {
-  color: "rgba(22, 25, 28, 0.84)";
+  color: rgb(221, 146, 8);
   padding: "15px";
-  margin-left: "3%";
+  margin: "5%";
   text-align: "start";
   font-size: "16px";
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: none;
 }

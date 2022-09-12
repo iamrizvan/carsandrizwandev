@@ -1,7 +1,7 @@
 import "./App.css";
 import CarService from "./services/CarService";
 import NewsLetter from "./newsletter/NewsLatter";
-
+import CarFooter from "./footer/CarFooter";
 function App() {
   return (
     <>
@@ -10,6 +10,7 @@ function App() {
       </section>
       <CarService />
       <NewsLetter />
+      <CarFooter />
     </>
   );
 }

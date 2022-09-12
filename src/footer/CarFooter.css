@@ -1,0 +1,58 @@
+.footer-section {
+  height: 70vh;
+  background: orange;
+  display: flex;
+  flex-direction: column;
+}
+.sec-one {
+  color: white;
+  flex: 2;
+  margin: 5%;
+  display: grid;
+}
+
+.sec-two {
+  color: white;
+  flex: 1;
+  display: flex;
+  margin: 5%;
+}
+
+.sec-three {
+  flex: 0.5;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sec-copy-one {
+  flex: 1;
+  align-items: center;
+  align-content: center;
+}
+
+.sec-copy-two {
+  flex: 4;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin: 0 6%;
+  padding: 15px;
+  border-radius: 50%;
+  border: solid 2px white;
+  font-size: 30px;
+  color: white;
+}
+
+.icon-container:hover {
+  background-color: white;
+  border: solid 2px orange;
+  color: orange;
+}
