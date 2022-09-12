@@ -1,0 +1,47 @@
+.sec-service {
+  background-color: rgb(252, 247, 247);
+  border-bottom: 1px solid rgb(192, 191, 191);
+  overflow: auto;
+}
+
+.form {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 220px;
+  height: 30px;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.form-control {
+  margin: 0.5rem 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.form button {
+  background: orange;
+  color: white;
+  border-color: transparent;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  margin-left: 5px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form p {
+  color: "rgba(22, 25, 28, 0.84)";
+  padding: "15px";
+  margin-left: "3%";
+  text-align: "start";
+  font-size: "16px";
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: none;
+}
